@@ -51,10 +51,10 @@ class CataasToYandex:
 
 
 def main():
-    # Входные данные
+
     text_input = input("Введите текст для картинки: ")
     ya_token = input("Введите ваш Яндекс.Диск токен: ")
-    group_name = "PYAPI-146"  # Пример названия вашей группы
+    group_name = "PYAPI-146"  
 
     uploader = CataasToYandex(ya_token, group_name)
     uploader.create_folder()
